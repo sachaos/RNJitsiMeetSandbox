@@ -28,8 +28,7 @@ import VideoCall from './VideoCall';
 const App: () => React$Node = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
-      <VideoCall></VideoCall>
+      <VideoCall url={'https://meet.jit.si/react-native-jitsi-meet-sandbox'} />
     </>
   );
 };

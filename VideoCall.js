@@ -12,7 +12,7 @@ class VideoCall extends React.Component {
 
   componentDidMount() {
     setTimeout(() => {
-      const url = self.props.navigation.getParam('url');
+      const url = this.props.url;
       const userInfo = {
         displayName: 'User',
         email: 'user@example.com',
